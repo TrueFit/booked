@@ -1,0 +1,20 @@
+{
+  "name": "POD",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "react-native": "^0.19.0",
+    "react-native-navbar": "^1.2.1",
+    "react-native-simple-store": "^0.1.0",
+    "react-native-vector-icons": "^1.2.1",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.6",
+    "redux-form": "^4.1.14",
+    "redux-thunk": "^1.0.3",
+    "valid-url": "^1.0.9"
+  }
+}
