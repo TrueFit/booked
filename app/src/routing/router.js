@@ -1,6 +1,6 @@
 // imports
 import React from 'react-native';
-import { Loading, Login, AddInstance, Home } from './index';
+import { Loading, Login, Home } from './index';
 
 // endpoints
 import loading from '../containers/misc/loading';
@@ -9,9 +9,7 @@ import login from '../containers/onboarding/login';
 // route map
 const ROUTE_MAP = {
   Loading: loading,
-  Login: login,
-  AddInstance: addInstance,
-  Home: home
+  Login: login
 };
 
 // router class

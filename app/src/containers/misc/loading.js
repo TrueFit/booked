@@ -13,9 +13,7 @@ class Loading extends SelfBindingComponent {
   }
 
   componentWillMount() {
-    this.loadLocalStorage().then(() => {
-      this.props.router.route(Login);
-    });
+    this.props.router.route(Login);
   }
 
   render() {
