@@ -700,7 +700,7 @@
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.softwriters.pod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truefit.booked;
 				PRODUCT_NAME = app;
 			};
 			name = Debug;
@@ -718,7 +718,7 @@
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.softwriters.pod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truefit.booked;
 				PRODUCT_NAME = app;
 			};
 			name = Release;
