@@ -18,5 +18,8 @@
     "redux-form": "^4.1.14",
     "redux-thunk": "^1.0.3",
     "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.4.0"
   }
 }

@@ -1,19 +1,22 @@
 // imports
-import React, { Component, View, Text, TextInput } from 'react-native';
+import React, {Component, View, Text, TextInput} from 'react-native';
 import {reduxForm} from 'redux-form';
 
-import { SelfBindingComponent } from '../../sugar';
+import {SelfBindingComponent} from '../../sugar';
 import createStyle from '../../styles';
-import { login } from '../../actions';
-import { Dashboard } from '../../routing';
-import { logError } from '../../support';
+import {login} from '../../actions';
+import {Dashboard} from '../../routing';
+import {logError} from '../../support';
 
-import { Button } from '../../components/controls';
+import {Button} from '../../components/controls';
+
+// styles
+const styles = createStyle();
 
 // class
 class LogIn extends SelfBindingComponent {
   render() {
-    const { handleSubmit, fields: { username, password } } = this.props;
+    const {handleSubmit, fields: {username, password}} = this.props;
 
     return (
       <View style={[styles.container, styles.contentContainer]}>
@@ -40,18 +43,15 @@ class LogIn extends SelfBindingComponent {
   }
 }
 
-// styles
-const styles = createStyle();
-
 // map
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     loginResult: state.loginResult
-  }
-}
+  };
+};
 
 // export
 export default reduxForm({
   form: 'LogIn',
-  fields: [ 'username', 'password' ]
-}, mapStateToProps, { login })(LogIn);
+  fields: ['username', 'password']
+}, mapStateToProps, {login})(LogIn);

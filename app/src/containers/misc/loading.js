@@ -6,6 +6,13 @@ import {SelfBindingComponent} from '../../sugar';
 import createStyle from '../../styles';
 import {Login} from '../../routing';
 
+// style
+const styles = createStyle({
+  loading: {
+    backgroundColor: '#fff'
+  }
+});
+
 // class
 class Loading extends SelfBindingComponent {
 
@@ -23,13 +30,6 @@ class Loading extends SelfBindingComponent {
     );
   }
 }
-
-// style
-const styles = createStyle({
-  loading: {
-    backgroundColor: '#fff'
-  }
-});
 
 // map
 const mapStateToProps = state => {
