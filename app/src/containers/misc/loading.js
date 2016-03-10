@@ -4,7 +4,7 @@ import {reduxForm} from 'redux-form';
 
 import {SelfBindingComponent} from '../../sugar';
 import createStyle from '../../styles';
-import {Login} from '../../routing';
+import {Available} from '../../routing';
 
 // style
 const styles = createStyle({
@@ -20,7 +20,7 @@ class Loading extends SelfBindingComponent {
   }
 
   componentWillMount() {
-    this.props.router.route(Login);
+    this.props.router.route(Available);
   }
 
   render() {

@@ -30,8 +30,5 @@ const styles = StyleSheet.create({
 });
 
 export default (viewStyle) => {
-  return {
-    ...styles,
-    ...viewStyle
-  };
-}
+  return Object.assign(viewStyle || {}, styles);
+};

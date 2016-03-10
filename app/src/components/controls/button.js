@@ -10,13 +10,19 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 5,
     borderColor: 'black',
-    padding: 5,
-    marginTop: 10
+    padding: 25,
+    marginTop: 10,
+    backgroundColor: '#87C119',
+    flex: 1,
+    flexDirection: 'row'
   },
   buttonText: {
     flex: 1,
+    color: 'white',
     alignSelf: 'center',
-    fontSize: 20
+    fontSize: 20,
+    fontWeight: '300',
+    alignItems: 'center'
   }
 });
 // class

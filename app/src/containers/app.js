@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     const nav = (
       <Navigator style={styles.container}
-        initialRoute={ { name: Loading } }
+        initialRoute={{name: Loading}}
         renderScene={this.renderScene}
       />
     );
