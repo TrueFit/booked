@@ -1,0 +1,18 @@
+{
+  "name": "booked",
+  "description": "an application to connect to office 365, particularly for truefit",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "nodemon server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express-magic-mvc": "git+https://github.com/jgretz/express-magic-mvc.git",
+    "memory-cache": "^0.1.4",
+    "node-outlook": "^1.1.5",
+    "simple-oauth2": "^0.5.1"
+  },
+  "repository": "https://github.com/TrueFit/booked.git",
+  "license": "MIT"
+}
